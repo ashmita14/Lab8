@@ -55,8 +55,12 @@ void MAXIMUM(int arg1[], int arg2[], int l1, int l2){
 		j++;
 	}
 	//displaying result
-	cout<<"Maximum number of first array = "<<max1<<endl;
-	cout<<"Maximum number of second array = "<<max2<<endl;
+	if(max1>max2){
+		cout<<"Maximum of both arrays = "<<max1<<endl;
+	}
+	else{
+		cout<<"Maximum of both arrays = "<<max2<<endl;
+	}
 }
 
 //declaring function to find minimum of both arrays
@@ -85,8 +89,12 @@ void MINIMUM(int arg1[], int arg2[], int l1, int l2){
 		j++;
 	}
 	//displaying result
-	cout<<"Minimum number of first array = "<<min1<<endl;
-	cout<<"Minimum number of second array = "<<min2<<endl;
+	if(min1<min2){
+		cout<<"Minimum of both array = "<<min1<<endl;
+	}
+	else {
+		cout<<"Minimum of both array = "<<min2<<endl;
+	}
 }
 
 //declaring driver function
